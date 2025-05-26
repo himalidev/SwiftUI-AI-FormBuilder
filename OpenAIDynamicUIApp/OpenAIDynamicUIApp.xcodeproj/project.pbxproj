@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B458092DE491E200B86ACB /* .env in Resources */ = {isa = PBXBuildFile; fileRef = F5B458082DE491E200B86ACB /* .env */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B457E42DE4913E00B86ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B457C92DE4913C00B86ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B457D02DE4913C00B86ACB;
+			remoteInfo = OpenAIDynamicUIApp;
+		};
+		F5B457EE2DE4913E00B86ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B457C92DE4913C00B86ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B457D02DE4913C00B86ACB;
+			remoteInfo = OpenAIDynamicUIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5B457D12DE4913C00B86ACB /* OpenAIDynamicUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAIDynamicUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B457E32DE4913E00B86ACB /* OpenAIDynamicUIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAIDynamicUIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B457ED2DE4913E00B86ACB /* OpenAIDynamicUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAIDynamicUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B458082DE491E200B86ACB /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F5B458182DE49D0000B86ACB /* Exceptions for "OpenAIDynamicUIApp" folder in "Copy Bundle Resources" phase from "OpenAIDynamicUIApp" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F5B457CF2DE4913C00B86ACB /* Resources */;
+			membershipExceptions = (
+				"Style/Color+Hex.swift",
+				"Style/Font+From.swift",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F5B457D32DE4913C00B86ACB /* OpenAIDynamicUIApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F5B458182DE49D0000B86ACB /* Exceptions for "OpenAIDynamicUIApp" folder in "Copy Bundle Resources" phase from "OpenAIDynamicUIApp" target */,
+			);
+			path = OpenAIDynamicUIApp;
+			sourceTree = "<group>";
+		};
+		F5B457E62DE4913E00B86ACB /* OpenAIDynamicUIAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenAIDynamicUIAppTests;
+			sourceTree = "<group>";
+		};
+		F5B457F02DE4913E00B86ACB /* OpenAIDynamicUIAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenAIDynamicUIAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B457CE2DE4913C00B86ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B457E02DE4913E00B86ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B457EA2DE4913E00B86ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B457C82DE4913C00B86ACB = {
+			isa = PBXGroup;
+			children = (
+				F5B458082DE491E200B86ACB /* .env */,
+				F5B457D32DE4913C00B86ACB /* OpenAIDynamicUIApp */,
+				F5B457E62DE4913E00B86ACB /* OpenAIDynamicUIAppTests */,
+				F5B457F02DE4913E00B86ACB /* OpenAIDynamicUIAppUITests */,
+				F5B457D22DE4913C00B86ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B457D22DE4913C00B86ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B457D12DE4913C00B86ACB /* OpenAIDynamicUIApp.app */,
+				F5B457E32DE4913E00B86ACB /* OpenAIDynamicUIAppTests.xctest */,
+				F5B457ED2DE4913E00B86ACB /* OpenAIDynamicUIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B457D02DE4913C00B86ACB /* OpenAIDynamicUIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B457F72DE4913E00B86ACB /* Build configuration list for PBXNativeTarget "OpenAIDynamicUIApp" */;
+			buildPhases = (
+				F5B457CD2DE4913C00B86ACB /* Sources */,
+				F5B457CE2DE4913C00B86ACB /* Frameworks */,
+				F5B457CF2DE4913C00B86ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F5B457D32DE4913C00B86ACB /* OpenAIDynamicUIApp */,
+			);
+			name = OpenAIDynamicUIApp;
+			packageProductDependencies = (
+			);
+			productName = OpenAIDynamicUIApp;
+			productReference = F5B457D12DE4913C00B86ACB /* OpenAIDynamicUIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B457E22DE4913E00B86ACB /* OpenAIDynamicUIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B457FA2DE4913E00B86ACB /* Build configuration list for PBXNativeTarget "OpenAIDynamicUIAppTests" */;
+			buildPhases = (
+				F5B457DF2DE4913E00B86ACB /* Sources */,
+				F5B457E02DE4913E00B86ACB /* Frameworks */,
+				F5B457E12DE4913E00B86ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B457E52DE4913E00B86ACB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5B457E62DE4913E00B86ACB /* OpenAIDynamicUIAppTests */,
+			);
+			name = OpenAIDynamicUIAppTests;
+			packageProductDependencies = (
+			);
+			productName = OpenAIDynamicUIAppTests;
+			productReference = F5B457E32DE4913E00B86ACB /* OpenAIDynamicUIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B457EC2DE4913E00B86ACB /* OpenAIDynamicUIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B457FD2DE4913E00B86ACB /* Build configuration list for PBXNativeTarget "OpenAIDynamicUIAppUITests" */;
+			buildPhases = (
+				F5B457E92DE4913E00B86ACB /* Sources */,
+				F5B457EA2DE4913E00B86ACB /* Frameworks */,
+				F5B457EB2DE4913E00B86ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B457EF2DE4913E00B86ACB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5B457F02DE4913E00B86ACB /* OpenAIDynamicUIAppUITests */,
+			);
+			name = OpenAIDynamicUIAppUITests;
+			packageProductDependencies = (
+			);
+			productName = OpenAIDynamicUIAppUITests;
+			productReference = F5B457ED2DE4913E00B86ACB /* OpenAIDynamicUIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B457C92DE4913C00B86ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F5B457D02DE4913C00B86ACB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F5B457E22DE4913E00B86ACB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F5B457D02DE4913C00B86ACB;
+					};
+					F5B457EC2DE4913E00B86ACB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F5B457D02DE4913C00B86ACB;
+					};
+				};
+			};
+			buildConfigurationList = F5B457CC2DE4913C00B86ACB /* Build configuration list for PBXProject "OpenAIDynamicUIApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B457C82DE4913C00B86ACB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F5B457D22DE4913C00B86ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B457D02DE4913C00B86ACB /* OpenAIDynamicUIApp */,
+				F5B457E22DE4913E00B86ACB /* OpenAIDynamicUIAppTests */,
+				F5B457EC2DE4913E00B86ACB /* OpenAIDynamicUIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B457CF2DE4913C00B86ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B458092DE491E200B86ACB /* .env in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B457E12DE4913E00B86ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B457EB2DE4913E00B86ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B457CD2DE4913C00B86ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B457DF2DE4913E00B86ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B457E92DE4913E00B86ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B457E52DE4913E00B86ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B457D02DE4913C00B86ACB /* OpenAIDynamicUIApp */;
+			targetProxy = F5B457E42DE4913E00B86ACB /* PBXContainerItemProxy */;
+		};
+		F5B457EF2DE4913E00B86ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B457D02DE4913C00B86ACB /* OpenAIDynamicUIApp */;
+			targetProxy = F5B457EE2DE4913E00B86ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5B457F52DE4913E00B86ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5B457F62DE4913E00B86ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B457F82DE4913E00B86ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenAIDynamicUIApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himali.OpenAIDynamicUIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B457F92DE4913E00B86ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenAIDynamicUIApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himali.OpenAIDynamicUIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5B457FB2DE4913E00B86ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himali.OpenAIDynamicUIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAIDynamicUIApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAIDynamicUIApp";
+			};
+			name = Debug;
+		};
+		F5B457FC2DE4913E00B86ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himali.OpenAIDynamicUIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAIDynamicUIApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAIDynamicUIApp";
+			};
+			name = Release;
+		};
+		F5B457FE2DE4913E00B86ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himali.OpenAIDynamicUIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenAIDynamicUIApp;
+			};
+			name = Debug;
+		};
+		F5B457FF2DE4913E00B86ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himali.OpenAIDynamicUIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenAIDynamicUIApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B457CC2DE4913C00B86ACB /* Build configuration list for PBXProject "OpenAIDynamicUIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B457F52DE4913E00B86ACB /* Debug */,
+				F5B457F62DE4913E00B86ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B457F72DE4913E00B86ACB /* Build configuration list for PBXNativeTarget "OpenAIDynamicUIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B457F82DE4913E00B86ACB /* Debug */,
+				F5B457F92DE4913E00B86ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B457FA2DE4913E00B86ACB /* Build configuration list for PBXNativeTarget "OpenAIDynamicUIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B457FB2DE4913E00B86ACB /* Debug */,
+				F5B457FC2DE4913E00B86ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B457FD2DE4913E00B86ACB /* Build configuration list for PBXNativeTarget "OpenAIDynamicUIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B457FE2DE4913E00B86ACB /* Debug */,
+				F5B457FF2DE4913E00B86ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B457C92DE4913C00B86ACB /* Project object */;
+}
