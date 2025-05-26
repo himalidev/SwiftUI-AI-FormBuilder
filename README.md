@@ -21,6 +21,9 @@ This project shows how to:
 
 ![demo](https://github.com/user-attachments/assets/5c712dbd-704a-4659-bf22-ebbb0651bd87)
 
+![image](https://github.com/user-attachments/assets/d5bb9592-45d4-464e-974d-1957cec408dc)
+
+
 > *From text prompt to live SwiftUI form — rendered in seconds.*
 
 ## 🔧 Getting Started
