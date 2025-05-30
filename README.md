@@ -86,7 +86,7 @@ Only return a valid JSON object, with no explanation or markdown formatting.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/SwiftUI-AI-FormBuilder.git
+   git clone [[https://github.com/your-username/SwiftUI-AI-FormBuilder.git]
    cd SwiftUI-AI-FormBuilder
    
 ## 🔐 Setting Up OpenAI API
@@ -100,6 +100,8 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 3. Run the project in Xcode and use the "Generate UI" button to test prompts.
 
+## 🧑‍💻 Author
 
+Created by **Himali Marasinghe**  
 
 
