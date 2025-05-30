@@ -101,5 +101,8 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 3. Run the project in Xcode and use the "Generate UI" button to test prompts.
 
 
+## 🧑‍💻 Author
+
+Created by **Himali Marasinghe**  
 
 
